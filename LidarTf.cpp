@@ -53,7 +53,7 @@ void image_projection ();
 
 int main(int argc, char **argv)
 {
-  ROS_INFO("optimizer");
+  ROS_INFO("LetsGo");
   ros::init(argc, argv, "LiveProjection");
   ros::NodeHandle n;
   message_filters::Subscriber<sensor_msgs::Image> image_sub(n, "cv_camera/image_raw", 5);
