@@ -17,8 +17,6 @@
 #include <pcl/kdtree/kdtree_flann.h>
 #include <pcl/kdtree/flann.h>
 #include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
 #include <sensor_msgs/Image.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <pcl/io/pcd_io.h>
